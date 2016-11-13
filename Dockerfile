@@ -26,5 +26,5 @@ EXPOSE 6881-6891
 EXPOSE 8112
 
 # Entrypoint
-COPY entrypoint.sh /entrypoint.sh
+COPY ./entrypoint.sh /
 ENTRYPOINT ["/entrypoint.sh"]
