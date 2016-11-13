@@ -27,4 +27,5 @@ EXPOSE 8112
 
 # Entrypoint
 COPY ./entrypoint.sh /
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
